@@ -8,26 +8,41 @@
   font-family: 'Stoke', serif;
 }
 
+body{
+  background-color: rgb(0,0,0);
+}
+
 header {
-  height: 10vh;
-  width: 100%;
-  background: rgb(255, 255, 255);
+  height: 5vh;
+  max-width: 100%;
+  background: rgb(0, 0, 0);
 }
 
 footer {
-  height: 10vh;
-  background: rgb(255, 255, 255);
+  font-size: 10px;
+  text-align: center;
+  height: 5vh;
+  background: rgb(0, 0, 0);
+}
+
+footer p {
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px black;
+  opacity: .5;
 }
 
 main {
-  background:url(imagens/wepik-2021726-15318.png);
+  background:url(imagens/fundo\ main\ 2.png);
   background-repeat: no-repeat;
   background-size: 100% 100%; 
-  height: 80vh;
-  width: 100%;
+  height: 90vh;
+  max-width: 100%;
 }
 main #descrição {
-  width: 100%;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  max-width: 100%;
   margin: auto;
   display: block;  
   text-align: center;
@@ -48,7 +63,7 @@ main h3{
   margin-right: auto;
 }
 #descrição img{
-  width: 50px;
+  max-width: 50px;
   height: 50px;
   display: inline-block;
   margin:0 10px 0 10px;
