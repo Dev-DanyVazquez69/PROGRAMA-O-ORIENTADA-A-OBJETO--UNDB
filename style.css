@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Stoke&display=swap');
+ 
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  color: rgb(255,255,255);
+  font-family: 'Stoke', serif;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+
+footer {
+  height: 10vh;
+  background: rgb(255, 255, 255);
+}
+
+main {
+  background:url(imagens/wepik-2021726-15318.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  height: 80vh;
+  width: 100%;
+}
+main #descrição {
+  width: 100%;
+  margin: auto;
+  display: block;  
+  text-align: center;
+  padding-top:200px;
+
+}
+main h1{
+  font-size: 50px;
+  display: inline-block;
+}
+main h3{
+  margin-top: 10px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#descrição img{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin:0 10px 0 10px;
+}
