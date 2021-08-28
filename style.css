@@ -21,7 +21,6 @@ header {
   height: 5vh;
   max-width: 100%;
   background: rgb(0, 0, 0);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.253);
 }
 header div {
   padding-top: 6px;
@@ -41,7 +40,6 @@ footer {
   text-align: center;
   height: 5vh;
   background: rgb(0, 0, 0);
-  border-top: 1px solid rgba(255, 255, 255, 0.253);
 }
 
 footer p {
