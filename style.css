@@ -42,6 +42,11 @@ footer {
   background: rgb(0, 0, 0);
   border-top: 1px solid rgba(255, 255, 255, 0.253);
 }
+@media only screen and (max-height: 500px) {
+  footer {
+    display: none;
+  }
+}
 
 footer p {
   padding-top: 10px;
