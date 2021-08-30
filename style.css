@@ -41,7 +41,11 @@ footer {
   height: 5vh;
   background: rgb(0, 0, 0);
 }
-
+@media only screen and (max-height: 500px) {
+  footer {
+    display: none;
+  }
+}
 footer p {
   padding-top: 10px;
   font-style: italic;
