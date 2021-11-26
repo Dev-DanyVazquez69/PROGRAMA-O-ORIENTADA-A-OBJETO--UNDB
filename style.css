@@ -94,10 +94,16 @@ main h3{
   opacity: 0.8;
 }
 img{
-  max-width: 100px;
-  height: 100px;
+  max-width: 90px;
+  height: 90px;
   display: inline-block;
   margin:0 10px 0 10px;
+  transition: .5s ease;
+}
+
+img:hover{
+  max-width: 100px;
+  height: 100px;
 }
 #container-botoes {
   margin-top: 50px;

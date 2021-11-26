@@ -32,19 +32,19 @@ main {
 .col {
     width: 33.33%;
     text-align: center;
-    border-right: 3px solid rgba(255, 255, 255, 0.459);
+    border-right: 3px solid rgba(255, 255, 255, 0.452);
 }
 .col h2 {
     background-color: rgba(0, 0, 0, 0.521);
     padding: 7px 0;
     text-transform: uppercase;
     border-top: 1px solid rgba(255, 255, 255, 0.452);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.459);
 
 }
 
 .card {
-    background-image: url(imagens/quadra-poliesportiva-portal.jpg);
+    background-image: url(imagens/Basquete-1.jpg);
     background-size: 100% 40%;
     background-color: black;
     background-repeat: no-repeat;
