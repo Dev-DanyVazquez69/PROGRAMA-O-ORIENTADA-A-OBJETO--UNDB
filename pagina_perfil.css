@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background-color: black;
+}
+
+.head {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.head h1, img{
+    font-size: 50px;
+}
+
+.head h1 {
+    margin-left: 35%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 50px auto;
+    text-align: center;
+    height: 100%;
+}
+.coluna {
+    background-color: rgba(0, 255, 255, 0.185);
+    border-right: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid red; */
+    height: 100;
+}
+
+.card {
+    border: 1px solid rgba(255, 0, 0, 0.527);
+    width: 90%;
+    margin: 30px auto;
+}
+.coluna h1 {
+    text-transform: uppercase;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
