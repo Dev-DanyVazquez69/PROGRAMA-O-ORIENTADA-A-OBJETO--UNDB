@@ -30,21 +30,35 @@ body {
     height: 100%;
 }
 .coluna {
-    background-color: rgba(0, 255, 255, 0.185);
-    border-right: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.445);
+    /* border-right: 1px solid rgb(255, 255, 255); */
     /* border: 1px solid red; */
     height: 100;
 }
 
 .card {
-    border: 1px solid rgba(255, 0, 0, 0.527);
+    background-color: rgba(43, 54, 58, 0.144);
     width: 90%;
     margin: 30px auto;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.164);
 }
 .coluna h1 {
     text-transform: uppercase;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    font-size: 40px;
+
 }
 
-.card h3 {
+.card h2 {
     margin-bottom: 15px;
+    padding-top: 25px;
+    font-size: 2em;
+}
+
+.estatistica {
+    padding: 25px 0;
 }
