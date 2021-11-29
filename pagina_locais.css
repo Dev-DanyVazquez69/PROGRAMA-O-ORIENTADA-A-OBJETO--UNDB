@@ -13,10 +13,46 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.384);
+    height: 5vh;
+    max-width: 100%;
+    /* background: rgba(0, 0, 0, 0.308); */
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.171); */
+}
+.logo {
+text-align: center;
+}
+
+ul {
+display: flex;
+}
+
+header p,li{
+/* border: 1px solid white; */
+padding:2px;  
+transition: opacity 1s ease;
+font-size: 25px;
+list-style: none;
+}
+a {
+text-decoration: none;
+}
+
+li{
+margin-right: 50px;
+font-size: 18px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: lighter;
+font-style: italic;
+}
+
+header p:hover,li:hover {
+opacity: .5;
+text-decoration: underline;
+
 }
 
 .h1 {
+    margin-top: 50px;
     font-size: 50px;
     text-align: center;
     padding: 25px 0;

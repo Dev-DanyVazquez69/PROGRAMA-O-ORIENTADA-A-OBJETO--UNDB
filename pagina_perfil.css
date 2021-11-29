@@ -10,6 +10,46 @@ body {
     background-size: 100% 100%;
 }
 
+header {
+    height: 5vh;
+    max-width: 100%;
+    margin-bottom: 40px;
+    /* background: rgba(0, 0, 0, 0.308);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171); */
+}
+.logo {
+text-align: center;
+}
+
+ul {
+display: flex;
+}
+
+header p,li{
+/* border: 1px solid white; */
+padding:2px;  
+transition: opacity 1s ease;
+font-size: 25px;
+list-style: none;
+}
+a {
+text-decoration: none;
+}
+
+li{
+margin-right: 50px;
+font-size: 18px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: lighter;
+font-style: italic;
+}
+
+header p:hover,li:hover {
+opacity: .5;
+text-decoration: underline;
+
+}
+
 .head {
     /* border: 1px solid red; */
     display: flex;
