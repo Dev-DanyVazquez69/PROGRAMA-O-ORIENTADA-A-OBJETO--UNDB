@@ -172,3 +172,44 @@ img:hover{
  top: 40%;
  left: 40%;
 }
+
+#comunicado {
+  z-index: 1;
+  position: absolute;
+  top:30%;
+  left: 30%;
+  background:linear-gradient(to top, rgb(255, 255, 255), rgb(0, 0, 0));
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.h1_comunicado {
+  margin: auto 0;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding: 0 20px;
+  text-shadow: 1px 1px 1px white;
+}
+
+#fechar img{
+  position: absolute;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  float: right;
+}
+
+#fechar {
+  cursor: pointer;
+}
+
+#fechar img:hover {
+  width: 35px;
+  height: 35px;
+}
